@@ -1,0 +1,117 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-family: "Source Sans Pro Light";
+  font-size: 14px;
+  border:none;
+  border-collapse: collapse;
+}
+
+/* table > thead > tr > th{
+  text-align: center;
+} */
+
+/* tbody tr > td {text-align: left;} */
+
+table td, th{
+  padding: .70rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+}
+
+/* normal table */
+table > thead{
+    background-color: rgba(0,179,227,0.8);
+}
+
+table > tbody > tr:nth-child(odd){
+	background-color: #FFFFFF;
+}
+
+table > tbody > tr:nth-child(even){
+	background-color: #D5F0FA;
+}
+
+table > tbody > tr:hover {
+	background-color: rgba(248, 194, 94, 0.5);
+}
+
+
+/******************* BLUE TABLE ****************/
+.table-blue > thead{
+  background-color: #45A2BC;
+  color: white;
+}
+
+.table-blue > tbody > tr:nth-child(odd){
+  background-color: #FFFFFF;
+}
+
+.table-blue > tbody > tr:nth-child(even){
+  background-color: #FFF6E8;
+}
+
+.table-blue > tbody > tr:hover {
+  background-color: rgba(248, 194, 94, 0.5);
+}
+
+
+/******************* BLUE BLACK ****************/
+.table-black > thead{
+  background-color:rgb(71, 68, 68);
+  color: white;
+}
+
+.table-black > tbody > tr:nth-child(odd){
+  background-color: #FFFFFF;
+}
+
+.table-black > tbody > tr:nth-child(even){
+  background-color: #FFF6E8;
+}
+
+.table-black > tbody > tr:hover {
+  background-color: rgba(248, 194, 94, 0.5);
+}
+
+
+/******************* BLUE ORANGE ****************/
+.table-orange > thead{
+  background-color: #FAA634;
+  color: white;
+}
+
+.table-orange > tbody > tr:nth-child(odd){
+  background-color: #FFFFFF;
+}
+
+.table-orange > tbody > tr:nth-child(even){
+  background-color: #FFF6E8;
+}
+
+.table-orange > tbody > tr:hover {
+  background-color: rgba(248, 194, 94, 0.5);
+}
+
+
+/******************* BLUE GREEN ****************/
+.table-green > thead{
+  background-color: #7AB79D;
+  color: white;
+}
+
+.table-green > tbody > tr:nth-child(odd){
+  background-color: #FFFFFF;
+}
+
+.table-green > tbody > tr:nth-child(even){
+  background-color: #FFF6E8;
+}
+
+.table-green > tbody > tr:hover {
+  background-color: rgba(248, 194, 94, 0.5);
+}
+
+
+
+

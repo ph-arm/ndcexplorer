@@ -1,0 +1,47 @@
+
+.linechart > svg {
+  background-color: white;
+  /* border: 1px solid black; */
+}
+
+.linechart > #tooltip {
+  position: fixed !important;
+  background: rgb(236, 215, 143);
+  opacity: 0.9;
+  padding: 10px;
+  border-radius: 5px;
+  pointer-events: none;
+  font-size: 15px;
+}
+
+/* mouse over event */
+/* .serie rect:hover{
+  fill-opacity: 0.75;
+  stroke: black;
+  stroke-width: 2;
+}
+
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 2px;
+}
+
+.axis { 
+  font: 12px sans-serif; 
+}
+
+.legend { 
+  font: 12px sans-serif; 
+}
+
+.grid line {
+  stroke: lightgrey;
+  stroke-opacity: 0.7;
+  shape-rendering: crispEdges;
+}
+
+.grid path {
+  stroke-width: 0;
+} */
+

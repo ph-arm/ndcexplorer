@@ -1,0 +1,72 @@
+#map .subunit {
+  fill: rgb(250, 250, 250);
+  stroke: rgb(233, 230, 230);
+  stroke-width: 1px;
+}
+
+#map .subunit.hover {
+  stroke: #000;
+  stroke-width: 2px;
+}
+
+#map .subunit.selected {
+  stroke: red;
+  stroke-width: 2px;
+}
+
+#map .subunit-boundary {
+  fill: none;
+  stroke: #3a403d;
+}
+
+#map .place,
+.place-label {
+  pointer-events: none;
+}
+
+#map .place-label {
+  font-size: .7em;
+  text-shadow: 0px 0px 2px #fff;
+}
+
+#map > svg {
+  background-color: white;
+  /* border: 1px solid black; */
+}
+
+#tip {
+  position: fixed !important;
+  background: rgb(236, 215, 143);
+  opacity: 0.9;
+  padding: 10px;
+  border-radius: 10px;
+  pointer-events: none;
+}
+
+#legend {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
+#legend .legend-title {
+  margin-bottom: 4px;
+  font-weight: bold;
+}
+
+#legend .legend-item {
+  margin-bottom: 4px;
+  font-size: .8em;
+}
+
+#legend .legend-swatch,
+#legend .legend-value {
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+#legend .legend-swatch {
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+}

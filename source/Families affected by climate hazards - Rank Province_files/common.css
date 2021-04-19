@@ -1,0 +1,134 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+    font-family: "Source Sans Pro Light";
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    float: left;
+    width: 100%;
+}
+
+div {
+    display: block;
+}
+
+#site-branding {
+	margin: 8px 0;
+	/* float: left; */
+	position: relative;
+}
+
+#site-branding .logo img {
+	max-width: 100px;
+	height: auto;
+	/* background-color: white;
+	border-radius: 50%; */
+}
+
+#site-branding .navbar-brand {
+	max-width: 250px;
+	height: auto;
+	margin-left: 20px;
+	padding: 18px 15px;
+	font-size: 36px;
+	line-height: 28px;
+	font-family: "Source Serif Pro", serif;
+	/* font-weight: 700; */
+}
+
+.pull-left {
+    float: left !important;
+}
+
+.white-text{
+	color: #FFFFFF !important;
+}
+
+.container {
+	max-width: 990px !important;
+}
+
+.row + .row {
+    margin-top: 1rem;
+}
+
+#header{
+	width: auto;
+	/* height: 120px; */
+	background-image: url(../img/header.png);
+	background-size: cover;  
+	background-repeat: no-repeat;
+	background-position: center center;
+	margin-bottom: 15px;
+}
+
+#footer{
+	width: auto;
+	background-image: url(../img/footer.png);
+	background-size: cover;  
+	background-repeat: no-repeat;
+	background-position: center center; 
+	margin-top: 15px;
+    clear: both;
+    border-top: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#footer-row, #header-row{
+	height: 150px;
+}
+
+.btn.btn-light.btn-sm{
+	width:125px;
+}
+
+select.form-control {
+	width:auto !important;
+	display:inline-block;
+	cursor: pointer;
+}
+
+#wrapper{
+	width: 960px;
+	margin:0px auto;
+}
+
+div#selectorContainer{
+	float: left;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.margintop{
+	margin-top: 10px !important;
+}
+
+
+svg {
+	/* border: 1px solid black; */
+	background: white;
+	font-family: "Source Sans Pro Light";
+	font-size: 14px;
+} 
+
+
+
+
+/* ------- set color threshold ------- */
+
+/* .High {background-color:rgb(255, 0, 0);}
+.Quite{background-color:rgb(255, 204, 255);}
+.Less {background-color:rgb(204, 204, 255);}
+.Least{background-color:rgb(153, 255, 153);} */
+
+
+
+
+
